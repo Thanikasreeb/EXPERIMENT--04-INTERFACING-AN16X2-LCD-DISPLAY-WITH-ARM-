@@ -271,7 +271,7 @@ int main(void)
       // Lcd_create(ports, pins, RS_GPIO_Port, RS_Pin, EN_GPIO_Port, EN_Pin, LCD_4_BIT_MODE);
       lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
       Lcd_cursor(&lcd, 0,1);
-      Lcd_string(&lcd, "Priyadharshini");
+      Lcd_string(&lcd, "Thanika sree");
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
